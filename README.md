@@ -2,13 +2,13 @@
 This is a project that explores Walmart sales data to identify trends and patterns.
 The data used in this project comes from the Kaggle Walmart Sales Forecasting competition and includes historical sales data for 45 Walmart stores located in different regions.
 
-#Motivation
+# Motivation
 The purpose of this project is to gain insights into Walmart sales data and understand the factors that affect sales. This analysis can help Walmart optimize their inventory management and pricing strategies, leading to increased profitability.
 
-#About the Data
+# About the Data
 The data used in this project is from the Kaggle Walmart Sales Forecasting competition. It includes historical sales data for 45 Walmart stores located in different regions, along with additional information about store features, promotions, and holidays. The data covers the period from February 2010 to October 2012.
 
-#Business Questions
+# Business Questions
 When does the stores open
 Total number of orders received in the last 3 months (Jan, Feb, Mar)
 How many quantities of product do we sell in the last 3 months
@@ -45,11 +45,11 @@ What is the most common payment method for each gender
 Add a new column named day_period to give insight of sales in the Morning, Afternoon and Evening
 Add a new column that contains the extracted months (Jan, Feb, Mar)
 Add a new column that contains the extracted months (Mon, Tue, Wed, Thur, Fri)
-#Approach
+# Approach
 Data preparation: The data is loaded into PostgreSQL and cleaned and preprocessed as necessary. Missing values are imputed, and the data is transformed into a format suitable for analysis.
 Exploratory data analysis: The data is explored using PostgreSQL to identify trends and patterns. Relationships between variables are analyzed to understand their impact on sales.
 Conclusion: The findings from the analysis are summarized, and recommendations are made for optimizing Walmart's inventory management and pricing strategies.
-#Results
+# Results
 The analysis of the Walmart sales data revealed several insights:
 
 Sales tend to be higher during holiday periods and promotions.
@@ -58,6 +58,6 @@ Certain departments, such as electronics and toys, have higher sales during cert
 The analysis of the Walmart sales data revealed several insights:
 Sales tend to be higher during holiday periods and promotions. Stores with larger sizes and higher temperatures tend to have higher sales. Certain departments, such as electronics and toys, have higher sales during certain periods, such as Christmas.
 
-#Conclusion
+# Conclusion
 This project shows how exploratory data analysis can be used to gain insights into Walmart sales data. The findings can be used to optimize inventory management and pricing strategies, leading to increased profitability. The project also demonstrates how SQL can be used to predict future sales based on historical data.
 
