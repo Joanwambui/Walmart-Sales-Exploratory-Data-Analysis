@@ -399,20 +399,4 @@ ADD COLUMN weekday VARCHAR(50);
 UPDATE sales
 SET weekday = to_char(date, 'Day');
 
-SELECT *
-FROM sales
-Footer
-© 2023 GitHub, Inc.
-Footer navigation
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Walmart-Sales-Exploratory-Data-Analysis/Project_Codes at main · VictorOluniyi/Walmart-Sales-Exploratory-Data-Analysis
+
